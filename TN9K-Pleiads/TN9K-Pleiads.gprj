@@ -1,0 +1,40 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/scandoubler.v" type="file.verilog" enable="1"/>
+        <File path="proms/pleiads_prog.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/prom_ic23.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/prom_ic24.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/prom_ic39.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/prom_ic40.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/prom_palette_ic40.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/prom_palette_ic41.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T8080se.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80a.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80s.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80se.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dpram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gen_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/phoenix.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/phoenix_effect1.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/phoenix_effect2.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/phoenix_effect3.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/phoenix_music.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/phoenix_video.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pleiads_top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/sddac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN9K-Pleiads.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
